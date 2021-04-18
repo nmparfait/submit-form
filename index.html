@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="./fontawesome-free-5.9.0-web/css/all.min.css"
+    />
+    <!-- style  -->
+    <link rel="stylesheet" href="./styles.css" />
+    <title>submit form</title>
+  </head>
+  <body>
+    <h1 class="section-title">submit form</h1>
+    <div class="container">
+      <header>
+        <h2 class="header-title">submit a tool</h2>
+        <button class="close-btn">
+          <i class="fas fa-times"></i>
+        </button>
+      </header>
+      <form action="">
+        <div class="form-control">
+          <label for="name">name</label>
+          <input
+            type="text"
+            id="name"
+            class="form-input"
+            placeholder="UI Design Daily"
+          />
+        </div>
+
+        <div class="form-control">
+          <label for="ressource">link to ressource</label>
+          <input
+            type="text"
+            id="ressource"
+            class="form-input"
+            placeholder="https://www.uidesigndaily.com"
+          />
+        </div>
+
+        <div class="form-control">
+          <label for="select">category</label>
+          <select name="" id="category">
+            <option value="" selected disabled hidden>select category</option>
+            <option value="first">first category</option>
+            <option value="second">second category</option>
+            <option value="third">third category</option>
+          </select>
+        </div>
+        <button type="submit" class="submit-btn">submit</button>
+      </form>
+    </div>
+  </body>
+</html>
